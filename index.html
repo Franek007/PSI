@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="To jest super zadanie">
+    <title>Zadanie</title>
+</head>
+
+<body class="page">
+
+    <header class="header" role="banner">
+        <h1 class="header__title">To jest header</h1>
+        <p class="header__subtitle">Tu można umieścić opis strony.</p>
+    </header>
+
+    <nav class="nav" role="navigation" aria-label="Główne menu">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#section" class="nav__link">Sekcja</a></li>
+            <li class="nav__item"><a href="#article" class="nav__link">Artykuł</a></li>
+            <li class="nav__item"><a href="#aside" class="nav__link">Dodatki</a></li>
+            <li class="nav__item"><a href="#footer" class="nav__link">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main class="main" role="main">
+
+        <section class="section" id="section">
+            <h2 class="section__title">To jest sekcja</h2>
+            <p class="section__text">W sekcji można opisać główne cechy lub ofertę strony.</p>
+
+            <h3 class="section__subtitle">Lista usług:</h3>
+            <ul class="section__list">
+                <li class="section__list-item">Projektowanie stron</li>
+                <li class="section__list-item">Optymalizacja SEO</li>
+                <li class="section__list-item">Audyt WCAG</li>
+            </ul>
+
+            <button class="section__button" type="button">Kliknij mnie</button>
+        </section>
+
+        <article class="article" id="article">
+            <h2 class="article__title">To jest artykuł</h2>
+            <p class="article__text">Artykuł zawiera samodzielną treść, np. opis projektu lub wpis na bloga.</p>
+
+            <h3 class="article__subtitle">Tabela danych przykładowych:</h3>
+            <table class="article__table">
+                <thead>
+                    <tr>
+                        <th>Nazwa</th>
+                        <th>Wartość</th>
+                        <th>Kategoria</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Strona firmowa</td>
+                        <td>1500 zł</td>
+                        <td>Web design</td>
+                    </tr>
+                    <tr>
+                        <td>Sklep online</td>
+                        <td>3000 zł</td>
+                        <td>E-commerce</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <aside class="aside" id="aside">
+            <h2 class="aside__title">To jest aside</h2>
+            <p class="aside__text">Tu możesz dodać dodatkowe informacje lub linki.</p>
+
+            <h3 class="aside__subtitle">Galeria zdjęć:</h3>
+            <figure class="aside__gallery">
+                <img src="https://unsplash.com/photos/close-up-of-a-womans-eye-with-glitter-makeup-BprdpC5b2wE"
+                    alt="Zdjęcie 1" class="aside__image" />
+                <figcaption>Zdjęcie 1 — przykład projektu</figcaption>
+            </figure>
+
+            <figure class="aside__gallery">
+                <img src="https://unsplash.com/photos/close-up-of-a-womans-eye-with-glitter-makeup-BprdpC5b2wE"
+                    alt="Zdjęcie 2" class="aside__image" />
+                <figcaption>Zdjęcie 2 — drugi przykład projektu</figcaption>
+            </figure>
+
+            <figure class="aside__gallery">
+                <img src="https://unsplash.com/photos/close-up-of-a-womans-eye-with-glitter-makeup-BprdpC5b2wE"
+                    alt="Zdjęcie 3" class="aside__image" />
+                <figcaption>Zdjęcie 3 — trzeci przykład projektu</figcaption>
+            </figure>
+        </aside>
+
+    </main>
+
+    <footer class="page__footer footer" id="footer" role="contentinfo">
+        <p class="footer__text">To jest stopka strony</p>
+        <p class="footer__copy">© 2025 Przykładowa Strona. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+
+</html>
